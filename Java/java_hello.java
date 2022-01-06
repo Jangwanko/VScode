@@ -1,4 +1,4 @@
-package hello;
+package Java;
 
 public class java_hello {
 
