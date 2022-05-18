@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CallAnotherConst",
+            "request": "launch",
+            "mainClass": "thisex.CallAnotherConst",
+            "projectName": "VScode_3e72076f"
+        },
+        {
+            "type": "java",
+            "name": "Launch thisex",
+            "request": "launch",
+            "mainClass": "thisex.thisex",
+            "projectName": "VScode_3e72076f"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
