@@ -11,4 +11,5 @@ for i in range(1, T + 1):
             daysum = daysum + result - day[j]
         else:
             result = day[j]
+
     print(f"#{i} {daysum}")
