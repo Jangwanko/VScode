@@ -1,8 +1,9 @@
 def calc(a, b):
     count = int(a % b)
-    sum = 0
-    sum += count
-    return sum
+
+    count_sum = [count]
+    sum(count_sum)
+    return count_sum
 
 
 T = int(input())
