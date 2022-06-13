@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 T=int(input())
 
 for i in range(T,T+1):    
@@ -28,3 +29,10 @@ for i in range(T,T+1):
     A와 B에 입력받은 숫자를 비교한다.
     A의 길이가 더 적으니 A의 대입을 B에 맞춰야함. 
     a[i]b[i+j]로 맞추면 될까 sum을 하여 더 큰값이면 result에 넣기'''
+=======
+num=int(input())
+count=[]
+for i in map(int, str(num)):
+    count.append(i)
+print(sum(count))
+>>>>>>> 8b84c295b15ab85a869096fe83646cac3ab1362d

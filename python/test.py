@@ -1,5 +1,6 @@
 T = int(input())
 
+<<<<<<< HEAD
 for test_case in range(1, T + 1):
     n,m=map(int,input().split())
     if(n>m):
@@ -20,3 +21,10 @@ for test_case in range(1, T + 1):
         if max>result:
             result=max
     print('#{0} {1}'.format(test_case,result))
+=======
+for i in range(1, T + 1):
+    num = int(input())
+    if num % 2 == 0:
+
+    print(f"#{i} {num}")
+>>>>>>> 8b84c295b15ab85a869096fe83646cac3ab1362d
