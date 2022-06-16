@@ -1,7 +1,8 @@
-def solution(numbers):
-    answer=[]
-    for i in range(numbers):
-        count=numbers[i]+numbers[len(numbers)]
-        answer.append(count)
-        answer=sum(answer)
-    return answer
+numbers = [2, 1, 3, 4, 1]
+answer=[]
+for i in range(len(numbers)):
+    for j in range(i+1, len(numbers)):
+        ans = numbers[i] + numbers[j]
+        answer.append(ans)
+        answer=list(set(answer))
+print(answer)
