@@ -1,14 +1,14 @@
 def solution(lottos, win_nums):
-    answer = []
-    zero=0
-    for i in lottos:
-        if i in win_nums:
-            zero+=1
+    rank = [6, 6, 5, 4, 3, 2, 1]
 
-    return answer
+    cnt_0 = lottos.count(0)  # lottos 안의 0의 개수를 반환
+    ans = 0
+    for x in win_nums:
+        if x in lottos:
+            ans += 1
 
+    return rank[cnt_0 + ans], rank[ans]
 
-print(solution)
 
 '''자기 번호와 당첨번호의 교집합을 구해서 최소 당첨등수를  구한다.
 

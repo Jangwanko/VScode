@@ -20,3 +20,20 @@ n (10진법)	n (3진법)	앞뒤 반전(3진법)	10진법으로 표현
 125	11122	22111	229
 따라서 229를 return 해야 합니다.'''
 
+
+def solution(n):
+    answer = 0
+    string = ""
+
+    while n > 0:
+        now = n % 3  # 나머지를 이용하여 삼진법의 수를 역순으로 구해냅니다.
+        n = n // 3  # n도 실제로 나누어주어 다음 삼진법의 수를 구할 수 있는 준비를 해 줍니다.
+        string += str(now)  # 구해진 now를 string에 이어붙여줍니다.
+    # 이는 0이 나올수 있으므로 String으로 하였습니다.
+
+    # 위에서 구해진 삼진법 수는 이미 역순으로 뒤집혀있는 삼진법 수입니다. 해당 수의 각 자리수에 3**i 를 곱해주어 십진법으로 변환을 하여줍니다.
+    for i in range(len(string)):
+        answer += int(string[len(string) - (i + 1)]) * 3 ** i
+
+    return answer
+# https://velog.io/@fftl/프로그래머스-3진법-뒤집기
