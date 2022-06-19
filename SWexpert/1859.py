@@ -13,3 +13,6 @@ for i in range(1, T + 1):
             result = day[j]
 
     print(f"#{i} {daysum}")
+
+
+#https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=2&contestProbId=AV5LrsUaDxcDFAXc&categoryId=AV5LrsUaDxcDFAXc&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=PYTHON&select-1=2&pageSize=10&pageIndex=1&&&&&&&&&&&&&&&&&&&&
