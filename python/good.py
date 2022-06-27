@@ -1,1 +1,3 @@
-print('good')
+c=0
+print(c)
+print('c')
