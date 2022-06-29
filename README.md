@@ -3,5 +3,4 @@
 ## 개인 공부한것을 올리는중입니다..
 
 
-### git connect, anaconda to vscode connect
-
+### 광주 인공지능 사관학교 재학? 중...
