@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <!-- 
+        테이블 제작(table)
+        1. 몇줄(tr)?
+        2. 몇칸?
+            2-1. 컬럼, 일반 데이터(table head, table data).
+        3. 테두리를 정의.
+        4.스타일(배경색, 정렬) 지정.
+    -->
+    <table border="1px solid piano black" width="150px">
+        <tr bgcolor="yellow">
+            <th>Age</th>
+            <th colspan="2">Name/Gender</th>
+            <th>ex</th>
+        </tr>
+        <tr align="center">
+            <td>17</td>
+            <td>JW</td>
+            <td>male</td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr align="center">
+            <td>20</td>
+            <td>DW</td>
+            <td>female</td>
+        </tr>
+    </table>
 </body>
+
 </html>
