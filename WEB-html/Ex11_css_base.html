@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*
+      전체선택자(*)= 모든 태그들에게 적용하겠따.
+      */
+      * {
+        color: aquamarine;
+      }
+      /*
+      태그 선택자(태그명)= 특정 태그들에게만 적용.
+      */
+      p {
+        color: red;
+      }
+      /*
+      클래스 선택자(.)=특정 클래스들에게만 적용. 중복가능
+      */
+      .p-txt {
+        color: green;
+      }
+      /*
+      id 선택자(#)=특정 아이디 에게 적용. 한 파일에 한번 사용. 중복불가. 
+      */
+      #span-txt {
+        color: yellow;
+      }
+      /*선택자의 우선순위 전체-0 < 태그-1 < 클래스-10 < ID-100*/
+    </style>
+  </head>
+  <body>
+    <p>p tag style change~</p>
+    <p class="p-txt">p tag style change~</p>
+    <span id="span-txt">span tag style change~</span>
+    <span>span tag style change~</span>
+  </body>
+</html>
